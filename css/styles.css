@@ -1,0 +1,256 @@
+/* RESET STYLESHEET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: gelica;
+    src: url(../fonts/Gelica/Fontspring-DEMO-gelica-semibold.otf);
+}
+
+/*New Style*/
+.releaserow {
+    display: flex;
+}
+.outer {
+    display: flex;
+}
+.releaserow h3 {
+    background-color: rgb(236, 212, 122);
+    border: 1px solid #ffe066;
+    box-shadow: 10px 10px #75ace2;
+    padding: 10%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.stacked {
+display: flex;
+flex-direction: column;
+}
+/* MISC(please note that I probably restated some things in here sorry)*/
+header {
+    padding: 10px;
+}
+
+.logowithouttext h3 {
+    margin: 0;
+}
+
+.logo {
+    max-width: 400px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-styling {
+    margin-left: 20px;
+}
+/* HEADERS*/
+header {
+    background-color: rgb(208, 232, 255);
+    text-align: center;
+}
+h1 {
+    font-family: gelica, 'Times New Roman', serif;
+    color: rgb(4, 20, 33);
+    text-shadow: 2px 2px #ffffff;
+}
+h1 img {
+    width: 20%;
+}
+h1 a {
+    font-family: gelica, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-shadow: 2px 2px #10163ff2;
+
+}
+
+h1:hover {
+    color: rgb(70, 255, 236);
+
+}
+h1 a:hover {
+    color: rgb(70, 255, 236);
+
+}
+h2 {
+    font-family: gelica, 'Times New Roman', serif;
+    color: rgb(4, 20, 33);
+    float: right;
+    font-size: 25px;
+}
+/** NAVIGATION */
+
+
+nav {
+    display: flex;
+    background-color: rgb(208, 232, 255)
+}
+.nav-styling {
+    float: right;
+}
+ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style-type: none;
+}
+ nav ul li a {
+    color: rgb(103, 107, 111);
+    font-family: gelica, 'Times New Roman', serif;
+    font-size: 50px;
+    padding: 15px;
+    float: right;
+    list-style-type: none;
+    margin-left: 150px;
+ }
+
+ nav ul li a:hover {
+    color: rgb(70, 255, 236);
+ }
+
+ /* MAIN SECTIONS */
+aside {
+    display: flex; 
+    justify-content: space-between;
+    float: right;
+    margin-top: 30px;
+    margin-left: 100px;
+
+ }
+#outer {
+    display: flex; 
+    justify-content: space-between;
+    float: right;
+    margin-top: 240px;
+    margin-left: 100px;
+}
+
+ul {
+    display:flex;
+    width:100%;
+  }
+li {
+    list-style:none;
+    width: 200px; 
+    height: 140px;
+}
+li:nth-child(odd) {
+        list-style:none;
+    width: 200px; 
+    height: 140px;
+   }
+
+ #commission:hover {
+    color: rgb(70, 255, 236);
+ }
+
+#newreleases {
+    display: flex;
+    background-color: rgb(255 247	219);
+    border-top: 6px solid rgb(236, 212, 122);
+    border-bottom: 6px solid rgb(236, 212, 122);
+}
+#newreleases h2 {
+    text-align: end;
+}
+.artfight {
+position: relative;
+border-bottom: 15px solid rgb(21, 75, 164);
+background-color: rgb(21, 75, 164);
+background-size: 100%;
+width: 100%;
+}
+
+.bule img {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position:relative;
+    margin-left:180px;
+    
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 0%;
+    column-gap: 5px;
+   } 
+.introduction {
+    border-bottom: 10px solid rgb(255 247	219);
+    background-color: rgb(76, 144, 255);
+    background-size: 100%;
+    width: 100%;
+ }
+
+.intro {
+    font-family: Gelica, 'Times New Roman', serif;
+    color: #10163ff2;
+    float: right;
+    font-size: 30px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #ffd634;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 100px;
+    background-color: #a0c8ff;
+    border: #ffffff;
+    justify-content: space-around;
+    font-family: Gelica, 'Times New Roman', serif;
+}
+h3 {
+    display: flex;
+    font-family: Gelica, 'Times New Roman', serif;
+    font-size: 25px;
+}
+h4 {
+    display: flex;
+    float: left;
+    font-family: Gelica, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.socials h3 {
+    font-family: Gelica, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-left: 1250px;
+    margin-bottom: 40px;
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    background-color: #ffd634;
+    justify-content: space-around;
+    font-family: Gelica, 'Times New Roman', serif;
+    
+}
